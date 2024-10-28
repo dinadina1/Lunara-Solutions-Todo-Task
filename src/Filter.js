@@ -15,7 +15,7 @@ const Filter = ({ handleFilter, setFilter, filter }) => {
             <option value="" disabled>
               Select Status
             </option>
-            <option value="">All</option>
+            <option value="all">All</option>
             <option value="pending">Pending</option>
             <option value="completed">Completed</option>
           </select>
